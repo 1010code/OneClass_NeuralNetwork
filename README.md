@@ -7,7 +7,6 @@
 
 
 ## 介紹
-> (a) OC-SVM, maximizing the margin of a hyperplane with respect to the origin. (b) SVDD, finding a hypersphere that encloses the given data. (c) MPM, finding a hyperplane that minimizes the misclassification probability.
 多元分類需要事先將預訓練的資料進行分類的標籤，相反的一元分類是要辨識此資料是否為目標物 (positive class data or target class data)。一元分類困難的原因是我們有大量的目標種類資料，但是負類(negative class)在現實生活中太多了，只要是任何的一個非目標物都算是負類。因次模訓練的過程中僅有目標種類的資料。一元分的的方法有多種例如：OC-SVM、SVDD(Support Vector Data Description)、MPM(Minimax Probability Machines)
 
 
